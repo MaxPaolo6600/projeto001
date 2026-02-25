@@ -1,0 +1,13 @@
+img{
+    width: 12rem;
+}
+
+.logo{
+    width: 8rem;
+}
+
+main section .card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

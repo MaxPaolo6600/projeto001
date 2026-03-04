@@ -1,9 +1,21 @@
+header{
+    font-family: "Fruktur", system-ui;
+}
+
+body{
+    height: 100vh;
+}
+
 img{
     width: 12rem;
 }
 
 .logo{
     width: 8rem;
+}
+
+main{
+    height: 100vh;
 }
 
 main section .card{

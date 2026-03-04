@@ -2,10 +2,6 @@ header{
     font-family: "Fruktur", system-ui;
 }
 
-body{
-    height: 100vh;
-}
-
 img{
     width: 12rem;
 }
@@ -15,7 +11,7 @@ img{
 }
 
 main{
-    height: 100vh;
+    height: 100%;
 }
 
 main section .card{

@@ -9,7 +9,6 @@
 }
 
 main {
-    height: 100%;
     background-color: rgb(25, 26, 27);
     height: min-content;
     font-family: Arial, Helvetica, sans-serif;
@@ -37,7 +36,7 @@ header .nav {
 }
 
 section {
-    padding: 2rem 15rem 2rem 15rem;
+    padding: 2% 15% 2% 15%;
 }
 
 section .titulo {
@@ -55,15 +54,18 @@ section .card1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 section .card1 a {
-    background-color: rgb(62, 168, 255);
-    padding: 0.75rem;
-    border-radius: 0.5rem;
     text-decoration: none;
     color: black;
+    background-color: rgb(62, 168, 255);
+    border-radius: 0.5rem;
+    width: 25%;
+    text-align: center;
+    padding: 0.75rem;
+    border: 2px solid rgb(71, 129, 255);
 }
 
 section .card1 .cardImg {
@@ -74,10 +76,11 @@ section .card1 .cardImg {
 section .card1 .cardImg h4 {
     color: white;
     padding-left: 2rem;
+    font-size: 3rem;
 }
 
 section .card1 .cardImg .imgRally {
-    width: 20rem;
+    width: 50%;
     border-radius: 1rem;
 }
 
@@ -90,44 +93,49 @@ section .card1 .cardImg .imgRally {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2rem;
     border-radius: 1rem;
+    margin: 5%;
 }
 
 .bg_b section h3 {
     color: white;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .bg_wrc {
     background-image: url("../img/img2.png");
+    height: 100vh;
 }
 
 .bg_wrc section {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2rem;
     border-radius: 1rem;
+    margin: 5%;
 }
 
 .bg_wrc section h3 {
     color: white;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .bg_1 {
     background-image: url("../img/img3.png");
+    height: 100vh;
 }
 
 .bg_1 section {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2rem;
     border-radius: 1rem;
+    margin: 5%;
 }
 
 .bg_1 section h3 {
     color: white;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 header,

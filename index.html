@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projeto001</title>
     <link rel="stylesheet" href="./assets/style/style.css">
-    <link rel="stylesheet" href="./bootstrap-5.3.8-dist/css/bootstrap.min.css">
     <link rel="icon" type="image/x-icon" href="./assets/img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,63 +14,53 @@
 
 <body>
     <header>
-        <nav class="navbar">
-            <div class="container justify-content-between">
-                <a href="./index.html" class="navbar-brand">
-                    <img src="./assets/img/logo2.png" alt="logo" class="logo">
-                </a>
-                <h4>Primeiro Projeto</h4>
-                <h6>Aluno: Max Klock</h6>
-            </div>
-        </nav>
+        <div class="nav">
+            <a href="./index.html">
+                <img src="./assets/img/logo2.png" alt="logo" class="logo">
+            </a>
+            <h1>Primeiro Projeto</h1>
+            <h4>Aluno: Max Klock</h4>
+        </div>
     </header>
-    <main class="bg-dark pt-5 min-vh-100">
-        <section class="container mt-5 mb-5">
-            <h2 class="text-white text-center fw-bold">O Rally é uma modalidade de automobilismo em que pilotos e
+    <main>
+        <section>
+            <h2 class="titulo">O Rally é uma modalidade de automobilismo em que pilotos e
                 navegadores competem percorrendo trechos
-                cronometrados em estradas abertas ou fechadas, muitas vezes em terrenos difíceis <span>como terra, lama,
+                cronometrados em estradas abertas ou fechadas, muitas vezes em terrenos difíceis como<span> terra, lama,
                     neve ou cascalho</span>
             </h2>
         </section>
-        <section class="container">
-            <h5 class="text-white">Link da fonte ultilizada:
+        <section>
+            <h4>Link da fonte ultilizada:
                 <span><a href="https://fonts.google.com/specimen/Fruktur?query=Fruktur">Aqui</a></span>
-            </h5>
+            </h4>
         </section>
-        <section class="container d-flex flex-column">
-            <div class="card bg-dark p-5">
-                <div class="d-flex flex-row align-items-center w-100">
-                    <img src="./assets/img/img1.jpg" alt="grupoB" class="w-50 rounded-4">
-                    <h4 class="text-white ps-5">Grupo B Rally</h4>
+        <section>
+            <div class="card1">
+                <div class="cardImg">
+                    <img src="./assets/img/img1.jpg" alt="grupoB" class="imgRally">
+                    <h4>Grupo B Rally</h4>
                 </div>
-                <div class="d-flex w-100 justify-content-end">
-                    <a href="./pages/grupoB.html" class="btn btn-primary" role="button">Ver mais</a>
-                </div>
+                <a href="./pages/grupoB.html" class="btn" role="button">Ver mais</a>
             </div>
-            <div class="card bg-dark p-5">
-                <div class="d-flex flex-row align-items-center w-100">
-                    <img src="./assets/img/img2.png" alt="wrc" class="w-50 rounded-4">
-                    <h4 class="text-white ps-5">WRC Rally</h4>
+            <div class="card1">
+                <div class="cardImg">
+                    <img src="./assets/img/img2.png" alt="wrc" class="imgRally">
+                    <h4>WRC Rally</h4>
                 </div>
-                <div class="d-flex w-100 justify-content-end">
-                    <a href="./pages/wrc.html" class="btn btn-primary" role="button">Ver mais</a>
-                </div>
+                <a href="./pages/wrc.html" class="btn" role="button">Ver mais</a>
             </div>
-            <div class="card bg-dark p-5">
-                <div class="d-flex flex-row align-items-center w-100">
-                    <img src="./assets/img/img3.png" alt="rally1" class="w-50 rounded-4">
-                    <h4 class="text-white ps-5">Grupo 1 Rally</h4>
+            <div class="card1">
+                <div class="cardImg">
+                    <img src="./assets/img/img3.png" alt="rally1" class="imgRally">
+                    <h4>Grupo 1 Rally</h4>
                 </div>
-                <div class="d-flex w-100 justify-content-end">
-                    <a href="./pages/rally1.html" class="btn btn-primary" role="button">Ver mais</a>
-                </div>
+                <a href="./pages/rally1.html" class="btn" role="button">Ver mais</a>
             </div>
         </section>
     </main>
-    <footer class="d-flex justify-content-center">
+    <footer>
         © Max Paolo Ltda.
     </footer>
 </body>
-<script src="./bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
-
 </html>

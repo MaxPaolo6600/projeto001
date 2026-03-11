@@ -1,35 +1,142 @@
-header{
-    font-family: "Fruktur", system-ui;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.logo{
+.logo {
     width: 8rem;
 }
 
-main{
+main {
     height: 100%;
+    background-color: rgb(25, 26, 27);
+    padding-top: 3rem;
+    height: min-content;
+    padding-bottom: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-main section .card{
+main section .card {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.bg_b{
-    background-image: url("../img/img1.jpg");
+header {
+    font-family: "Fruktur", system-ui;
+    display: flex;
 }
-.bg_wrc{
+
+header .nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin: 2rem 15rem 2rem 15rem;
+}
+
+section .titulo {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+section h4 {
+    color: white;
+}
+
+section .card1 {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+}
+
+section .card1 a {
+    background-color: rgb(62, 168, 255);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+section .card1 .cardImg {
+    display: flex;
+    align-items: center;
+}
+
+section .card1 .cardImg h4 {
+    color: white;
+    padding-left: 2rem;
+}
+
+section .card1 .cardImg .imgRally {
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+.bg_b {
+    background-image: url("../img/img1.jpg");
+    height: 100vh;
+}
+
+.bg_b section {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.bg_b section h3 {
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.bg_wrc {
     background-image: url("../img/img2.png");
 }
-.bg_1{
+
+.bg_wrc section {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.bg_wrc section h3 {
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.bg_1 {
     background-image: url("../img/img3.png");
 }
 
-header, footer{
-    background: linear-gradient(to right, rgb(25, 0, 255), rgb(62, 168, 255))
+.bg_1 section {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 1rem;
 }
-span{
+
+.bg_1 section h3 {
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+header,
+footer {
+    background: linear-gradient(to right, rgb(25, 0, 255), rgb(62, 168, 255));
+}
+
+span {
     background: linear-gradient(to right, rgb(255, 133, 133), rgb(71, 129, 255));
     background-clip: text;
     -webkit-text-fill-color: transparent;

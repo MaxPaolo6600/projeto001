@@ -7,6 +7,7 @@
     <title>projeto001</title>
     <link rel="stylesheet" href="./assets/style/style.css">
     <link rel="stylesheet" href="./bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fruktur:ital@0;1&display=swap" rel="stylesheet">
@@ -14,44 +15,60 @@
 
 <body>
     <header>
-        <nav class="navbar bg-success">
+        <nav class="navbar">
             <div class="container justify-content-between">
                 <a href="./index.html" class="navbar-brand">
-                    <img src="./assets/img/logo.png" alt="logo" class="logo">
+                    <img src="./assets/img/logo2.png" alt="logo" class="logo">
                 </a>
                 <h4>Primeiro Projeto</h4>
                 <h6>Aluno: Max Klock</h6>
             </div>
         </nav>
     </header>
-    <main class="bg-dark pt-5">
-        <section class="container mt-3 mb-3">
-            <h4 class="text-white">Link da fonte ultilizada:
+    <main class="bg-dark pt-5 min-vh-100">
+        <section class="container mt-5 mb-5">
+            <h2 class="text-white text-center fw-bold">O Rally é uma modalidade de automobilismo em que pilotos e
+                navegadores competem percorrendo trechos
+                cronometrados em estradas abertas ou fechadas, muitas vezes em terrenos difíceis <span>como terra, lama,
+                    neve ou cascalho</span>
+            </h2>
+        </section>
+        <section class="container">
+            <h5 class="text-white">Link da fonte ultilizada:
                 <span><a href="https://fonts.google.com/specimen/Fruktur?query=Fruktur">Aqui</a></span>
-            </h4>
+            </h5>
         </section>
         <section class="container d-flex flex-column">
-            <a href="./pages/HTML.html">
-                <div class="card bg-dark p-5">
-                    <img src="./assets/img/html.png" alt="html">
-                    <h4 class="text-white ps-2">html -> linguagem de marcação de hipertexto</h4>
+            <div class="card bg-dark p-5">
+                <div class="d-flex flex-row align-items-center w-100">
+                    <img src="./assets/img/img1.jpg" alt="grupoB" class="w-50 rounded-4">
+                    <h4 class="text-white ps-5">Grupo B Rally</h4>
                 </div>
-            </a>
-            <a href="./pages/CSS.html">
-                <div class="card bg-dark p-5">
-                    <img src="./assets/img/css.png" alt="css">
-                    <h4 class="text-white ps-2">css -> visual da aplicação web</h4>
+                <div class="d-flex w-100 justify-content-end">
+                    <a href="./pages/grupoB.html" class="btn btn-primary" role="button">Ver mais</a>
                 </div>
-            </a>
-            <a href="./pages/JAVASCRIPT.html">
-                <div class="card bg-dark p-5">
-                    <img src="./assets/img/script.png" alt="script">
-                    <h4 class="text-white ps-2">JavaScipt -> Scripts, parte funcional do site</h4>
+            </div>
+            <div class="card bg-dark p-5">
+                <div class="d-flex flex-row align-items-center w-100">
+                    <img src="./assets/img/img2.png" alt="wrc" class="w-50 rounded-4">
+                    <h4 class="text-white ps-5">WRC Rally</h4>
                 </div>
-            </a>
+                <div class="d-flex w-100 justify-content-end">
+                    <a href="./pages/wrc.html" class="btn btn-primary" role="button">Ver mais</a>
+                </div>
+            </div>
+            <div class="card bg-dark p-5">
+                <div class="d-flex flex-row align-items-center w-100">
+                    <img src="./assets/img/img3.png" alt="rally1" class="w-50 rounded-4">
+                    <h4 class="text-white ps-5">Grupo 1 Rally</h4>
+                </div>
+                <div class="d-flex w-100 justify-content-end">
+                    <a href="./pages/rally1.html" class="btn btn-primary" role="button">Ver mais</a>
+                </div>
+            </div>
         </section>
     </main>
-    <footer class="bg-success d-flex justify-content-center">
+    <footer class="d-flex justify-content-center">
         © Max Paolo Ltda.
     </footer>
 </body>

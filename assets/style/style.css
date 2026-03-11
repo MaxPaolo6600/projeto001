@@ -2,10 +2,6 @@ header{
     font-family: "Fruktur", system-ui;
 }
 
-img{
-    width: 12rem;
-}
-
 .logo{
     width: 8rem;
 }
@@ -18,4 +14,23 @@ main section .card{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.bg_b{
+    background-image: url("../img/img1.jpg");
+}
+.bg_wrc{
+    background-image: url("../img/img2.png");
+}
+.bg_1{
+    background-image: url("../img/img3.png");
+}
+
+header, footer{
+    background: linear-gradient(to right, rgb(25, 0, 255), rgb(62, 168, 255))
+}
+span{
+    background: linear-gradient(to right, rgb(255, 133, 133), rgb(71, 129, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

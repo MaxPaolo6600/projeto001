@@ -22,6 +22,12 @@ main section .card {
     align-items: center;
 }
 
+main section .tabela{
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(26, 26, 26);
+}
+
 header {
     display: flex;
 }
@@ -46,6 +52,10 @@ section .titulo {
 }
 
 section h4 {
+    color: white;
+}
+
+section li{
     color: white;
 }
 

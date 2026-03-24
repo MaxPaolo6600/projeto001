@@ -1,3 +1,7 @@
+:root{
+    --font-color: #FFF; 
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -22,9 +26,9 @@ main section .card {
     align-items: center;
 }
 
-main section .tabela{
-    border: 1px solid white;
-    color: white;
+main section .tabela {
+    border: 1px solid var(--font-color);
+    color: var(--font-color);
     background-color: rgb(26, 26, 26);
 }
 
@@ -46,17 +50,17 @@ section {
 }
 
 section .titulo {
-    color: white;
+    color: var(--font-color);
     text-align: center;
     font-weight: bold;
 }
 
 section h4 {
-    color: white;
+    color: var(--font-color);
 }
 
-section li{
-    color: white;
+section li {
+    color:var(--font-color);
 }
 
 section .card1 {
@@ -71,12 +75,25 @@ section .card1 {
 section .card1 a {
     text-decoration: none;
     color: black;
-    background-color: rgb(62, 168, 255);
+    background-color: var(--font-color);
     border-radius: 0.5rem;
     width: 25%;
     text-align: center;
     padding: 0.75rem;
-    border: 2px solid rgb(71, 129, 255);
+    border: 3px solid rgb(62, 168, 255);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+section .card1 a:hover {
+    background-color: #2980b9;
+    transform: scale(1.10);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+section .card1 a:focus {
+    outline: 2px solid var(--font-color);
+    outline-offset: 2px;
 }
 
 section .card1 .cardImg {
@@ -85,7 +102,7 @@ section .card1 .cardImg {
 }
 
 section .card1 .cardImg h4 {
-    color: white;
+    color: var(--font-color);
     padding-left: 2rem;
     font-size: 3rem;
 }
@@ -108,7 +125,7 @@ section .card1 .cardImg .imgRally {
 }
 
 .bg_b section h3 {
-    color: white;
+    color: var(--font-color);
     margin-bottom: 2rem;
     font-size: 1.5rem;
 }
@@ -126,7 +143,7 @@ section .card1 .cardImg .imgRally {
 }
 
 .bg_wrc section h3 {
-    color: white;
+    color: var(--font-color);
     margin-bottom: 2rem;
     font-size: 1.5rem;
 }
@@ -144,27 +161,34 @@ section .card1 .cardImg .imgRally {
 }
 
 .bg_1 section h3 {
-    color: white;
+    color: var(--font-color);
     margin-bottom: 2rem;
     font-size: 1.5rem;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-footer .form{
+footer .form {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1rem;
 }
 
+footer .input-footer{
+    border-radius: 0.25rem;
+    border: 0;
+    margin: 0.5rem;
+    padding: 0.25rem;
+}
+
 header,
 footer {
-    background: linear-gradient(to right, rgb(25, 0, 255), rgb(62, 168, 255));
+    background: linear-gradient(to right, rgb(255, 133, 133), rgb(62, 168, 255));
 }
 
 span {

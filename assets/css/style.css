@@ -152,13 +152,16 @@ section .card1 .cardImg .imgRally {
 footer{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
+
 footer .form{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1rem;
 }
+
 header,
 footer {
     background: linear-gradient(to right, rgb(25, 0, 255), rgb(62, 168, 255));

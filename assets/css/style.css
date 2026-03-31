@@ -1,5 +1,7 @@
-:root{
-    --font-color: #FFF; 
+:root {
+    --font-color: #FFF;
+    --main: #161616;
+    --azul1: #2483ff;
 }
 
 * {
@@ -14,10 +16,11 @@
 }
 
 main {
-    background-color: rgb(25, 26, 27);
+    background-color: var(--main);
     height: min-content;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 3rem;
+    box-shadow: rgba(255, 133, 133, 0.25) 0px 54px 55px, rgba(255, 133, 133, 0.12) 0px -12px 30px, rgba(255, 133, 133, 0.12) 0px 4px 6px, rgba(255, 133, 133, 0.17) 0px 12px 13px, rgba(255, 133, 133, 0.09) 0px -3px 5px;
 }
 
 main section .card {
@@ -29,11 +32,12 @@ main section .card {
 main section .tabela {
     border: 1px solid var(--font-color);
     color: var(--font-color);
-    background-color: rgb(26, 26, 26);
+    background-color: var(--main);
 }
 
 header {
     display: flex;
+    background-color: var(--main);
 }
 
 header .nav {
@@ -43,6 +47,29 @@ header .nav {
     align-items: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+header .navTab {
+    display: flex;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 1rem;
+    padding: 0 1rem 0 1rem;
+}
+
+header .navTab a {
+    text-decoration: none;
+    padding: 1rem;
+}
+
+header .navTab a:hover {
+    background-color: rgba(10, 150, 250, 0.25);
+    transform: scale(1.10);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+}
+
+header .navTab a .textNav {
+    color: var(--font-color);
 }
 
 section {
@@ -60,7 +87,7 @@ section h4 {
 }
 
 section li {
-    color:var(--font-color);
+    color: var(--font-color);
 }
 
 section .card1 {
@@ -80,7 +107,7 @@ section .card1 a {
     width: 25%;
     text-align: center;
     padding: 0.75rem;
-    border: 3px solid rgb(62, 168, 255);
+    border: 3px solid var(--azul1);
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -170,6 +197,10 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: var(--main);
+    box-shadow: rgba(10, 150, 250, 0.25) 0px 20px 20px -12px inset;
+    color: var(--font-color);
+    padding-top: 1rem;
 }
 
 footer .form {
@@ -179,20 +210,15 @@ footer .form {
     margin: 1rem;
 }
 
-footer .input-footer{
+footer .input-footer {
     border-radius: 0.25rem;
     border: 0;
     margin: 0.5rem;
     padding: 0.25rem;
 }
 
-header,
-footer {
-    background: linear-gradient(to right, rgb(255, 133, 133), rgb(62, 168, 255));
-}
-
 span {
-    background: linear-gradient(to right, rgb(255, 133, 133), rgb(71, 129, 255));
+    background: linear-gradient(to right, rgb(255, 133, 133), var(--azul1));
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-    <title>Grupo B</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados enviados</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="../assets/img/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,32 +37,24 @@
             </div>
         </div>
     </header>
-    <main class="bg_b">
+    <main>
         <section>
-            <h3>
-                O Grupo B foi inicialmente um conceito de muito sucesso, com muitos fabricantes juntando-se ao
-                Campeonato Mundial de Rally, aumentando o número de espectadores. Mas o custo para competir cresceu
-                muito rápido, e a performance dos carros aumentou ainda mais, resultando em vários acidentes fatais.
-            </h3>
-            <h3>Corridas mais conhecidas:</h3>
-            <ul>
-                <li>Rali de Portugal</li>
-                <li>Rali da Córsega</li>
-                <li>Rali da Argentina</li>
-                <li>Rali da Alemanha</li>
-            </ul>
+        <h2 class="comentarioText">Dados recebidos:</h2>
+        <div id="lista-comentarios"></div>
         </section>
     </main>
     <footer>
         <h2>© Max Paolo Ltda.</h2>
-        <form>
+        <div class="form1">
             <h4>Algum comentário sobre o site? Envie aqui:</h4>
             <div class="form">
-                <textarea placeholder="Comentário"></textarea>
-                <input type="email" placeholder="E-mail">
+                <textarea id="texto" type="text" placeholder="Comentário"></textarea>
+                <input id="email" type="email" placeholder="E-mail">
             </div>
-        </form>
+            <button type="button" onclick="enviar()">Enviar</button>
+        </div>
     </footer>
+    <script src="../assets/js/script.js"></script>
 </body>
 
 </html>

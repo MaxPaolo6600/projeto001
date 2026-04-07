@@ -156,7 +156,7 @@ section .card1 .cardImg .imgRally {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2rem;
     border-radius: 1rem;
-    margin: 5%;
+    margin: 5% 10% 5% 10%;
 }
 
 .bg_b section h3 {
@@ -174,7 +174,7 @@ section .card1 .cardImg .imgRally {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2rem;
     border-radius: 1rem;
-    margin: 5%;
+    margin: 5% 10% 5% 10%;
 }
 
 .bg_wrc section h3 {
@@ -192,7 +192,7 @@ section .card1 .cardImg .imgRally {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2rem;
     border-radius: 1rem;
-    margin: 5%;
+    margin: 5% 10% 5% 10%;
 }
 
 .bg_1 section h3 {

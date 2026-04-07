@@ -96,13 +96,14 @@
     </main>
     <footer>
         <h2>© Max Paolo Ltda.</h2>
-        <form>
+        <div class="form1">
             <h4>Algum comentário sobre o site? Envie aqui:</h4>
             <div class="form">
-                <textarea placeholder="Comentário"></textarea>
-                <input type="email" placeholder="E-mail">
+                <textarea class="inputFooter" id="texto" type="text" placeholder="Comentário"></textarea>
+                <input class="inputFooter" id="email" type="email" placeholder="E-mail">
             </div>
-        </form>
+            <button class="btnFooter" type="button" onclick="enviar()">Enviar</button>
+        </div>
     </footer>
 </body>
 

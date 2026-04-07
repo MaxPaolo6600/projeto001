@@ -95,6 +95,7 @@ section h4 {
 
 section li {
     color: var(--font-color);
+    margin: 1rem;
 }
 
 section .card1 {
@@ -217,11 +218,33 @@ footer .form {
     margin: 1rem;
 }
 
-footer .input-footer {
-    border-radius: 0.25rem;
-    border: 0;
-    margin: 0.5rem;
+footer .form1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .inputFooter{
     padding: 0.25rem;
+    border-radius: 0.50rem;
+    height: 3rem;
+    background-color: var(--main);
+    border: 1px solid var(--azul1);
+    color: var(--font-color);
+    margin-left: 1rem;
+}
+
+footer .btnFooter{
+    color: black;
+    background-color: var(--font-color);
+    border-radius: 0.5rem;
+    width: 25%;
+    text-align: center;
+    padding: 0.75rem;
+    border: 3px solid var(--azul1);
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 span {
@@ -247,6 +270,7 @@ span {
     color: gray;
     font-size: 1rem;
 }
+
 section .comentarioText{
     color: var(--font-color);
 }

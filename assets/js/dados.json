@@ -1,0 +1,105 @@
+{
+    "championship": "World Rally Championship",
+    "season": 2025,
+    "events": [
+        {
+            "round": 1,
+            "name": "Monte Carlo Rally",
+            "location": "Monte Carlo, Monaco",
+            "date": "2025-01-25",
+            "country_code": "MCO",
+            "winner": {
+                "driver": "Sébastien Ogier",
+                "team": "Toyota Gazoo Racing WRT"
+            }
+        },
+        {
+            "round": 2,
+            "name": "Rally Sweden",
+            "location": "Sweden",
+            "date": "2025-02-15",
+            "country_code": "SWE",
+            "winner": {
+                "driver": "Elfyn Evans",
+                "team": "Toyota Gazoo Racing WRT"
+            }
+        },
+        {
+            "round": 3,
+            "name": "Safari Rally Kenya",
+            "location": "Kenya",
+            "date": "2025-03-22",
+            "country_code": "KEN",
+            "winner": {
+                "driver": "Elfyn Evans",
+                "team": "Toyota Gazoo Racing WRT"
+            }
+        },
+        {
+            "round": 4,
+            "name": "Rally Islas Canarias",
+            "location": "Canary Islands, Spain",
+            "date": "2025-04-26",
+            "country_code": "ESP",
+            "winner": {
+                "driver": "Kalle Rovanperä",
+                "team": "Toyota Gazoo Racing WRT"
+            }
+        },
+        {
+            "round": 5,
+            "name": "Rally de Portugal",
+            "location": "Portugal",
+            "date": "2025-05-17",
+            "country_code": "POR",
+            "winner": {
+                "driver": "Sébastien Ogier",
+                "team": "Toyota Gazoo Racing WRT"
+            }
+        },
+        {
+            "round": 6,
+            "name": "Rally Italia Sardegna",
+            "location": "Sardinia, Italy",
+            "date": "2025-06-07",
+            "country_code": "ITA",
+            "winner": {
+                "driver": "Sébastien Ogier",
+                "team": "Toyota Gazoo Racing WRT"
+            }
+        },
+        {
+            "round": 7,
+            "name": "Acropolis Rally Greece",
+            "location": "Greece",
+            "date": "2025-06-28",
+            "country_code": "GRC",
+            "winner": {
+                "driver": "Ott Tänak",
+                "team": "Hyundai Shell Mobis WRT"
+            }
+        },
+        {
+            "round": 8,
+            "name": "Rally Estonia",
+            "location": "Estonia",
+            "date": "2025-07-19",
+            "country_code": "EST",
+            "winner": {
+                "driver": "Oliver Solberg",
+                "team": "Toyota Gazoo Racing WRT"
+            }
+        },
+        {
+            "round": 9,
+            "name": "Rally Finland",
+            "location": "Finland",
+            "date": "2025-08-02",
+            "country_code": "FIN",
+            "winner": {
+                "driver": "Kalle Rovanperä",
+                "team": "Toyota Gazoo Racing"
+            }
+        }
+    ]
+}
